@@ -1,0 +1,11 @@
+    def add_contact(self):
+        # 添加联系人
+        # print(self.data)
+        print('添加联系人'.center(20, '='))
+        new_contact = dict()
+        new_contact['name'] = input('请输入联系人备注>>')
+        new_contact['phone_number'] = input('请输入号码>>')
+        new_contact['call_records'] = []
+        self.data.append(new_contact)
+        self.update_contact()  # 更新通讯录
+        print('成功添加联系人')
