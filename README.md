@@ -6,4 +6,4 @@ python与mysql的连接需要MySQL-python-wininst.log
 绘图函数matplotlib.pyplot需要导入包
 
 
-安装Mysql比较费劲
+安装Mysql比较费劲，可以再加一点其他功能
